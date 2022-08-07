@@ -66,6 +66,7 @@
     background-image: url("https://images.unsplash.com/photo-1659636688047-65f34ef54da7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-size: cover;
     background-position: center;
+    margin:2rem;
   }
   
   .tilting-card-body > :where(h1, p) {
