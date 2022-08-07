@@ -12,34 +12,30 @@
     z-index: 2;
   }
   .mouse-position-tracker {
-    //background: blue;
-    //opacity: .2;
+    /* background: blue; */
+    /* opacity: .2; */
   }
   
   /* 1st, 5th, 9th 13th */
   .mouse-position-tracker:nth-child(4n - 3) {
     left: 0;
-    //background:rgba(33,77,23,0.5);
-    //border :3px solid black;
+    /* background:rgba(33,77,23,0.5); */
   }
   /* 2nd, 6th, 10th 14th */
   .mouse-position-tracker:nth-child(4n - 2) {
     left: calc(100% / 4);
-    //background:rgba(99,55,101,0.5);
-    //border :3px solid red;
+    /* background:rgba(99,55,101,0.5); */
   }
   /* 3nd, 7th, 11th 15th */
   .mouse-position-tracker:nth-child(4n - 1) {
     left: calc(100% / 2);
-    //background:rgba(187,111,11,0.5);
-    //border :3px solid black;
+    /* background:rgba(187,111,11,0.5); */
   }
   
   /* 4th, 8th, 12th 16th */
   .mouse-position-tracker:nth-child(4n) {
     right: 0;
-    //background:rgba(187,11,200,0.5);
-    //border :3px solid black;
+    /* background:rgba(187,11,200,0.5); */
   }
   
   /* 1 to 4 */
@@ -66,7 +62,7 @@
   .tilting-card-body {
     position: absolute;
     inset: 0;
-    // outline: 3px solid red;
+    /* outline: 3px solid red; */
     background-image: url("https://images.unsplash.com/photo-1659636688047-65f34ef54da7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-size: cover;
     background-position: center;
@@ -169,38 +165,7 @@
     --rotationX: calc(var(--angle) *-1);
     --rotationY: var(--angle);
   }
-  
-  
-  
-  
-  
-  
-  /*
-  
-  .mouse-position-tracker:nth-child(5):hover ~ .tilting-card-body {
-    --rotationY: calc(var(--angle) * -1);
-  }
-  
-  .mouse-position-tracker:nth-child(6):hover ~ .tilting-card-body {
-    --rotationY: var(--angle);
-  }
-  
-  .mouse-position-tracker:nth-child(8):hover ~ .tilting-card-body {
-    --rotationY: calc(var(--angle) * -1);
-    --rotationX: calc(var(--angle) * -1);
-  }
-  
-  .mouse-position-tracker:nth-child(9):hover ~ .tilting-card-body {
-    --rotationX: calc(var(--angle) * -1);
-  }
-  
-  .mouse-position-tracker:nth-child(9):hover ~ .tilting-card-body {
-    --rotationY: var(--angle);
-    --rotationX: calc(var(--angle) * -1);
-  }
-  
-  
-  */
+
   
   /* general styling */
   :root {
@@ -215,10 +180,3 @@
     place-content: center;
     min-height: 100vh;
   }
-  
-  /*
-    <div class="mouse-position-tracker q13"></div>
-    <div class="mouse-position-tracker q14"></div>
-    <div class="mouse-position-tracker q15"></div>
-    <div class="mouse-position-tracker q16"></div>
-  */
